@@ -1,0 +1,51 @@
+header{
+    background-color:gray;
+    position: sticky;
+    top: 0px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 40px;
+}
+a:hover{
+    color: white;
+}
+.logo{
+    color:red
+}
+.logo:hover{
+    color:white
+}
+
+.image-holder{
+    position: relative;
+}
+.image-name{
+    font-size: 40px;
+    color:red;
+    position:absolute;
+    top:350px;
+    left: 250px;
+}
+
+.position-default{
+    position: static;
+}
+
+.my-name{
+    font-size: 50px;
+    color:blue;
+    position: fixed;
+    bottom: 0px;
+
+}
